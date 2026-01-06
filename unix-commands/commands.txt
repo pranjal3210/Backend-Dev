@@ -1,0 +1,16 @@
+pwd — shows where you currently exist in the filesystem… existential but for computers
+ls — list files
+    ls -a → show hidden files
+    ls -l → detailed mode
+
+cd foldername — walk into a folder like a boss
+cd .. — move back
+touch file.txt — create a file
+cat file.txt — read file
+nano file.txt or vi file.txt — edit file
+cp source dest — copy
+mv old new — rename / move
+rm file.txt — delete file permanently (no recycle bin drama)
+mkdir newFolder — create folder
+rmdir folder — remove empty folder
+rm -r folder — delete folder with everything inside (dangerous vibes)
