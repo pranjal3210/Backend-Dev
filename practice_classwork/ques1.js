@@ -10,13 +10,11 @@ function checkOrderStatus(orderId) {
   });
 }
 async function processOrder(orderId) {
-  try {
+  
     const result = await checkOrderStatus(orderId);
     console.log(result);
-  } catch (error) {
-    console.log(error);
-  }
+   
 }
 processOrder(101);   
 processOrder("ABC");    
-processOrder(null);    
+processOrder(null);   
